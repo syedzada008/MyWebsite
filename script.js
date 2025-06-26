@@ -3,8 +3,8 @@ const defaultPassword = '1234';
 
 document.getElementById('loginForm').addEventListener('submit', function(e) {
     e.preventDefault();
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
+    const username = document.getElementById('Hassan').value;
+    const password = document.getElementById('HassanHassan786').value;
     const errorMessage = document.getElementById('errorMessage');
     const loginContainer = document.querySelector('.login-container');
     const successMessage = document.getElementById('successMessage');
